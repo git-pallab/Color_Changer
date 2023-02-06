@@ -1,0 +1,156 @@
+/* background colour */
+body,.container {
+    background-color: #4361ee;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .container{
+    padding-left: 50px;
+} */
+
+/* header and navigation menu section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    padding-right: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+/* text style for logo text */
+
+.logo-name{
+    font-size: 40px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+/* main section */
+main {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section 1 / content section */
+
+.section-one-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.title{
+    font-size: 60px;
+    color: white;
+}
+
+.des{
+    color: white;
+    font-size: 20px;
+}
+
+.h-bold{
+    color: rgb(2, 2, 180);
+}
+
+/* buttons style */
+
+.button{
+    background-color: rgb(2, 2, 180);
+    color: white;
+    border: 0px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* footer section */
+
+footer{
+    
+    text-align: center;
+    position: fixed;
+    color: white;
+    bottom: 30px;
+    width: 100%;
+    
+}
+
+/* color chooser section */
+.color-container{
+    border: solid 1px white;
+    position: fixed;
+    top: 250px;
+    left: 0px;
+}
+.yellow{
+    height: 30px;
+    width: 30px;
+    background-color: #ffc300;
+    border: solid 1px white;
+}
+
+.blue{
+    height: 30px;
+    width: 30px;
+    background-color: #4361ee;
+    border: solid 1px white;
+}
+
+.red{
+    height: 30px;
+    width: 30px;
+    background-color: #d80032;
+    border: solid 1px white;
+}
+
+.green{
+    height: 30px;
+    width: 30px;
+    background-color: #007f5f;
+    border: solid 1px white;
+}
+
+.black{
+    height: 30px;
+    width: 30px;
+    background-color: #2b2d42;
+    border: solid 1px white;
+}
